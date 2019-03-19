@@ -1,0 +1,24 @@
+{
+  "name": "yvo.solutions",
+  "version": "0.0.3",
+  "description": "Yvo.Solutions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Yvo",
+    "Solutions",
+    "Loic",
+    "Yvonnet",
+    "Cpp",
+    "C",
+    "C++",
+    "JavaScript"
+  ],
+  "author": "Loic Yvonnet",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.7.1"
+  }
+}
