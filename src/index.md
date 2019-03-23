@@ -1,3 +1,11 @@
+---
+title: Home - Yvo.Solutions
+summary: Homepage of Yvo.Solutions - Software Engineering Consultancy.
+image: favicon.ico
+url: /index.html
+layout: layouts/base.njk
+---
+
 # Yvo.Solutions
 
 // "Immersive" scalable responsive image (buy one??)
