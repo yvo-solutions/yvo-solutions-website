@@ -72,3 +72,31 @@ header, footer {
             "left content right";
     }
 }
+
+/* Menu - TODO: move to separate file */
+
+nav.main_menu ul {
+    position: absolute;
+    list-style: none;
+}
+
+nav.main_menu ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    position: relative;
+}
+
+nav.main_menu ul li:hover > ul {
+    display: block;
+}
+
+nav.main_menu ul ul ul {
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+nav.main_menu ul ul ul li {
+    display: block;
+}

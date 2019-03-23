@@ -17,28 +17,6 @@ layout: layouts/base.njk
 
 Fast and robust **software** <span>for your **business**</span>.
 
-## Menu
-
-[comment]: <> (The menu should overlay on top of the immersive image - or canvas on desktops)
-
-* Services
-    * Domain Fields
-        * CAD
-            * 3DEXPERIENCE
-            * CATIA
-        * Robotics
-        * Healthcare
-    * Services Categories
-        * Contracting
-        * Code Reviews
-        * Software Architecture Audit
-        * Miscelaneous
-    * Technologies
-        * Programming Languages
-        * Platforms
-* News
-* Contact
-
 ## Summary
 
 [comment]: <> (TODO: find something more catchy...)

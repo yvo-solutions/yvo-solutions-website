@@ -1,8 +1,61 @@
+{%
+set navMainMenu = [
+    {
+        "title": "Services",
+        "href": "/services/"
+    },
+    {
+        "title": "Fields",
+        "href": "/fields/"
+    },
+    {
+        "title": "Technologies",
+        "href": "/technologies/"
+    },
+    {
+        "title": "News",
+        "href": "/news/"
+    },
+    {
+        "title": "Contact",
+        "href": "/contact/"
+    }
+]
+%}
+
+<!--
+## Menu
+
+[comment]: <> (The menu should overlay on top of the immersive image - or canvas on desktops)
+
+* Services
+    * Domain Fields
+        * CAD
+            * 3DEXPERIENCE
+            * CATIA
+        * Robotics
+        * Healthcare
+    * Services Categories
+        * Contracting
+        * Code Reviews
+        * Software Architecture Audit
+        * Miscelaneous
+    * Technologies
+        * Programming Languages
+        * Platforms
+* News
+* Contact
+-->
+
 <nav class="main_menu">
     <ul>
-        <li>Services</li>
-        <li>Technologies</li>
-        <li>News</li>
-        <li>Contact</li>
+        {% for link in navMainMenu %}
+            <li>
+                <a  class="{{ 'is-active' if link.href in page.url }}"
+                    href="{{ link.href }}">
+                        {{ link.title }}
+                </a>
+            </li>
+      {% endfor %}
     </ul>
 </nav>
