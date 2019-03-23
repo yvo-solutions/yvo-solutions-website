@@ -1,6 +1,6 @@
 ---
-title: Home - Yvo.Solutions
-summary: Homepage of Yvo.Solutions - Software Engineering Consultancy.
+title: Yvo.Solutions
+summary: Yvo.Solutions - Software Consulting.
 url: /index.html
 layout: layouts/base.njk
 ---
@@ -13,8 +13,9 @@ layout: layouts/base.njk
 
 [comment]: <> (Let's give birth to your software ideas.)
 
-Your software.
-For real.
+[comment]: <> (Donnons vie à vos projets informatiques.)
+
+Fast and robust **software** <span>for your **business**</span>.
 
 ## Menu
 
@@ -42,8 +43,9 @@ For real.
 
 [comment]: <> (TODO: find something more catchy...)
 
-Yvo.Solutions provides consulting services in the fields of Computer Aided Design (CAD), Robotics and Healthcare. It specializes in C++ and high performance applications, and focuses on software quality.
-Yvo.Solutions is based in France and can operate in European Union.
+Yvo.Solutions provides software engineering and consulting services in the fields of Computer Aided Design (CAD), Robotics and Healthcare. Yvo.Solutions specializes in C++ and high performance applications, and focuses on software quality.
+
+Yvo.Solutions is based in France and can operate across European Union.
 
 ## References
 
@@ -106,7 +108,3 @@ Read more [here]
 Yvo.Solutions can save your life with HL7, experience in and low latency C++
 
 Read more [here]
-
-### Footer
-
-As today
