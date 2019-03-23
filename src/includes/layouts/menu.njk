@@ -2,15 +2,57 @@
 set navMainMenu = [
     {
         "title": "Services",
-        "href": "/services/"
+        "href": "/services/",
+        "children": [
+            {
+                "title": "Contracting",
+                "href": "/services/contracting/"
+            },
+            {
+                "title": "Code Reviews",
+                "href": "/services/code_reviews/"
+            },
+            {
+                "title": "Audit",
+                "href": "/services/audit/"
+            },
+            {
+                "title": "Other Services",
+                "href": "/services/misc/"
+            }
+        ]
     },
     {
         "title": "Fields",
-        "href": "/fields/"
+        "href": "/fields/",
+        "children": [
+            {
+                "title": "Computer-Aided Design",
+                "href": "/fields/cad/"
+            },
+            {
+                "title": "Robotics",
+                "href": "/fields/robotics/"
+            },
+            {
+                "title": "Healthcare",
+                "href": "/fields/healthcare/"
+            }
+        ]
     },
     {
         "title": "Technologies",
-        "href": "/technologies/"
+        "href": "/technologies/",
+        "children": [
+            {
+                "title": "Programming Languages",
+                "href": "/technologies/languages/"
+            },
+            {
+                "title": "Platforms",
+                "href": "/technologies/platforms/"
+            }
+        ]
     },
     {
         "title": "News",
@@ -23,39 +65,25 @@ set navMainMenu = [
 ]
 %}
 
-<!--
-## Menu
-
-[comment]: <> (The menu should overlay on top of the immersive image - or canvas on desktops)
-
-* Services
-    * Domain Fields
-        * CAD
-            * 3DEXPERIENCE
-            * CATIA
-        * Robotics
-        * Healthcare
-    * Services Categories
-        * Contracting
-        * Code Reviews
-        * Software Architecture Audit
-        * Miscelaneous
-    * Technologies
-        * Programming Languages
-        * Platforms
-* News
-* Contact
--->
-
 <nav class="main_menu">
     <ul>
         {% for link in navMainMenu %}
             <li>
-                <a  class="{{ 'is-active' if link.href in page.url }}"
-                    href="{{ link.href }}">
-                        {{ link.title }}
+                <a class="{{ 'is-active' if link.href in page.url }}" href="{{ link.href }}">
+                    {{ link.title }}
                 </a>
+                {% if link.hasOwnProperty("children") %}
+                    <ul>
+                        {% for subLink in link.children %}
+                            <li>
+                                <a class="{{ 'is-active' if subLink.href in page.url }}" href="{{ subLink.href }}">
+                                    {{ subLink.title }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
             </li>
-      {% endfor %}
+        {% endfor %}
     </ul>
 </nav>

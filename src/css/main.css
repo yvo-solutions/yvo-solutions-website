@@ -75,28 +75,59 @@ header, footer {
 
 /* Menu - TODO: move to separate file */
 
+nav.main_menu {
+    background: yellow;
+    height: 50px;
+}
+
 nav.main_menu ul {
     position: absolute;
     list-style: none;
+    background: rgb(22, 160, 133);
+    margin-left: auto;
+    margin-right: 2%;
 }
 
 nav.main_menu ul li {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 0 20px 0 0;
+    margin: 0;
     position: relative;
 }
 
 nav.main_menu ul li:hover > ul {
-    display: block;
+    display: inline-block;
+}
+
+nav.main_menu ul ul {
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 5px 15px;
+}
+
+nav.main_menu ul ul li {
+    display: inline-block;
+    padding-top: 5px;
+    padding-top: 5px;
+    width: 11em;
 }
 
 nav.main_menu ul ul ul {
     position: absolute;
-    display: none;
-    margin: 0;
-    padding: 5px 10px;
+    top: 0;
+    left: 100%;
 }
 
 nav.main_menu ul ul ul li {
-    display: block;
+    display: inline-block;
+}
+
+nav.main_menu ul li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px dashed #FFF;
 }
