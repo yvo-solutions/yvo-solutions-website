@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="{{ summary }}">
+    <meta name="twitter:card" content="{{ summary }}"/>
+    <meta name="twitter:creator" content="@yvo.solutions"/>
+    <meta property="og:url" content="{{ url }}"/>
+    <meta property="og:title" content="{{ title }}"/>
+    <meta property="og:description" content="{{ summary }}"/>
+    <meta property="og:image" content="favicon.ico"/>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    {% include "layouts/header.njk" %}
+    {% include "layouts/menu.njk" %}
+    {{ content | safe }}
+    {% include "layouts/footer.njk" %}
+    <script async="async" src="js/main.js"></script>
+  </body>
+</html>
