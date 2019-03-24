@@ -1,11 +1,21 @@
 <header>
     <div class="left">
-        <p class="logo">
-            <!-- <a href="/">{!%%% include "svg/logo_yvo_solutions.svg" %%%!}</a> -->
-            Logo
-        </p>
+        <div class="logo">
+            <p class="yvo_solutions">
+                <a href="/">
+                    <span class="yvo">Yvo</span><span class="solutions">.Solutions</span>
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="middle">
+        {% include "layouts/menu.njk" %}
     </div>
     <div class="right">
-        {% include "layouts/menu.njk" %}
+        <div class="mobile_menu_icon_open">
+            <a href="#">
+                Menu
+            </a>
+        </div>
     </div>
 </header>

@@ -3,27 +3,53 @@ body {
     background-color: aqua;
 }
 
-main {
-    background-color: #111;
-}
-
-main, header, footer {
+body div#central {
+    background-color: pink;
     display: grid;
     grid-gap: 1em;
-    grid-template-areas: 
+    grid-template-areas:
+        "main"
         "left"
-        "content"
         "right";
 }
 
-header, footer {
+header {
     background-color: #999;
+    display: grid;
+    grid-template-columns: auto 5em;
+    grid-template-areas: 
+        "left   right"
+        "middle middle";
+}
+
+footer {
+    background-color: #999;
+    display: grid;
+    grid-template-areas: 
+        "left"
+        "right";
+}
+
+main {
+    grid-area: main;
+    background-color: coral;
 }
 
 .left {
     grid-area: left;
     background-color: red;
 }
+
+.middle {
+    grid-area: middle;
+    background-color: grey;
+}
+
+/*
+header div.middle {
+    display: none
+}
+*/
 
 .right {
     grid-area: right;
@@ -35,99 +61,115 @@ header, footer {
     background-color: grey;
 }
 
-.left, .right, .content {
-    border-radius: 5px;
+footer .left, footer .right, .content {
     padding: 10px;
 }
 
+header .left .logo .yvo_solutions {
+    padding: 0;
+    margin: 0;
+    background-color: salmon;
+}
+
+nav.main_menu ul {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    display: grid;
+    grid-template-areas:
+        "first"
+        "second"
+        "third"
+        "fourth"
+        "fifth";
+}
+
+nav.main_menu ul li {
+    background-color: beige;
+}
+
+nav.main_menu ul li.services {
+    grid-area: first;
+}
+
+nav.main_menu ul li.fields {
+    grid-area: second;
+}
+
+nav.main_menu ul li.technologies {
+    grid-area: third;
+}
+
+nav.main_menu ul li.news {
+    grid-area: fourth;
+}
+
+nav.main_menu ul li.contact {
+    grid-area: fifth;
+}
+
 @media only screen and (min-width: 500px) {
-    main {
+    body div#central {
         grid-template-columns: 20% auto;
         grid-template-areas:
-            "left  content"
+            "left  main"
             "right right";
-    }
-
-    header, footer {
-        grid-template-areas:
-            "left right"
-    }
-
-    header {
-        grid-template-columns: 20% auto;
     }
 
     footer {
         grid-template-columns: auto 20%;
+        grid-template-areas:
+            "left right"
     }
 }
 
 @media only screen and (min-width: 600px) {
-    main {
+    body div#central {
         margin-left: 2%;
         margin-right: 2%;
         grid-gap: 20px;
         grid-template-columns: 120px auto 120px;
         grid-template-areas:
-            "left content right";
+            "left main right";
     }
-}
 
-/* Menu - TODO: move to separate file */
+    header {
+        grid-template-columns: 20% auto;
+        grid-template-areas: 
+            "left middle";
+    }
 
-nav.main_menu {
-    background: yellow;
-    height: 50px;
-}
+    header div.right {
+        display: none
+    }
 
-nav.main_menu ul {
-    position: absolute;
-    list-style: none;
-    background: rgb(22, 160, 133);
-    margin-left: auto;
-    margin-right: 2%;
-}
+    nav.main_menu ul {
+        list-style: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        vertical-align: center;
+        display: grid;
+        grid-template-areas:
+            "first second third fourth fifth";
+    }
 
-nav.main_menu ul li {
-    display: inline-block;
-    padding: 0 20px 0 0;
-    margin: 0;
-    position: relative;
-}
+    nav.main_menu ul li ul {
+        position: absolute;
+        display: none;
+    }
 
-nav.main_menu ul li:hover > ul {
-    display: inline-block;
-}
+    nav.main_menu ul li ul li {
+        position: relative;
+        padding: 2em;
+    }
+    
+    nav.main_menu ul li:hover > ul {
+        display: block;
+    }
 
-nav.main_menu ul ul {
-    position: absolute;
-    display: none;
-    margin: 0;
-    padding: 5px 15px;
-}
-
-nav.main_menu ul ul li {
-    display: inline-block;
-    padding-top: 5px;
-    padding-top: 5px;
-    width: 11em;
-}
-
-nav.main_menu ul ul ul {
-    position: absolute;
-    top: 0;
-    left: 100%;
-}
-
-nav.main_menu ul ul ul li {
-    display: inline-block;
-}
-
-nav.main_menu ul li a {
-  color: #FFF;
-  text-decoration: none;
-}
-
-a:hover {
-  border-bottom: 1px dashed #FFF;
+    nav.main_menu ul li:hover, nav.main_menu ul ul li:hover {
+        background-color: orange;
+    }
 }

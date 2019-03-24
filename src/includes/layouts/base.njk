@@ -16,11 +16,11 @@
   </head>
   <body>
     {% include "layouts/header.njk" %}
-    <main>
-      <div class="content">
+    <div id="central">
+      <main>
         {{ content | safe }}
-      </div>
-    </main>
+      </main>
+    </div>
     {% include "layouts/footer.njk" %}
     <script async="async" src="js/main.js"></script>
   </body>

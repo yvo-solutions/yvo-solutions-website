@@ -3,64 +3,78 @@ set navMainMenu = [
     {
         "title": "Services",
         "href": "/services/",
+        "class": "services",
         "children": [
             {
                 "title": "Contracting",
-                "href": "/services/contracting/"
+                "href": "/services/contracting/",
+                "class": "contracting"
             },
             {
                 "title": "Code Reviews",
-                "href": "/services/code_reviews/"
+                "href": "/services/code_reviews/",
+                "class": "code_reviews"
             },
             {
                 "title": "Audit",
-                "href": "/services/audit/"
+                "href": "/services/audit/",
+                "class": "audit"
             },
             {
                 "title": "Other Services",
-                "href": "/services/misc/"
+                "href": "/services/misc/",
+                "class": "misc"
             }
         ]
     },
     {
         "title": "Fields",
         "href": "/fields/",
+        "class": "fields",
         "children": [
             {
                 "title": "Computer-Aided Design",
-                "href": "/fields/cad/"
+                "href": "/fields/cad/",
+                "class": "cad"
             },
             {
                 "title": "Robotics",
-                "href": "/fields/robotics/"
+                "href": "/fields/robotics/",
+                "class": "robotics"
             },
             {
                 "title": "Healthcare",
-                "href": "/fields/healthcare/"
+                "href": "/fields/healthcare/",
+                "class": "healthcare"
             }
         ]
     },
     {
         "title": "Technologies",
         "href": "/technologies/",
+        "class": "technologies",
         "children": [
             {
                 "title": "Programming Languages",
-                "href": "/technologies/languages/"
+                "href": "/technologies/languages/",
+                "class": "languages"
             },
             {
                 "title": "Platforms",
-                "href": "/technologies/platforms/"
+                "href": "/technologies/platforms/",
+                "class": "platforms"
             }
         ]
     },
     {
         "title": "News",
-        "href": "/news/"
+        "href": "/news/",
+        "class": "news"
     },
     {
         "title": "Contact",
-        "href": "/contact/"
+        "href": "/contact/",
+        "class": "contact"
     }
 ]
 %}
@@ -68,14 +82,14 @@ set navMainMenu = [
 <nav class="main_menu">
     <ul>
         {% for link in navMainMenu %}
-            <li>
+            <li class="{{ link.class }}">
                 <a class="{{ 'is-active' if link.href in page.url }}" href="{{ link.href }}">
                     {{ link.title }}
                 </a>
                 {% if link.hasOwnProperty("children") %}
                     <ul>
                         {% for subLink in link.children %}
-                            <li>
+                            <li class="{{ subLink.class }}">
                                 <a class="{{ 'is-active' if subLink.href in page.url }}" href="{{ subLink.href }}">
                                     {{ subLink.title }}
                                 </a>
