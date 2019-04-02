@@ -1,5 +1,1 @@
-import del from "del";
-
-export function clean() {
-    return del(["./build/"]);
-}
+export default function serve() {};
