@@ -1,0 +1,17 @@
+{% extends "layouts/base.njk" %}
+
+{% block css %}
+    <link rel="stylesheet" href="/css/home.css" />
+{% endblock %}
+
+{% block js %}
+    <script async="async" src="/js/main.min.js"></script>
+{% endblock %}
+
+{% block main %}
+<div id="central"> <!-- temp -->
+    <main>
+        {{ content | safe }}
+    </main>
+</div> <!-- temp -->
+{% endblock %}

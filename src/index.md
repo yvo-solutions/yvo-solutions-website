@@ -2,7 +2,7 @@
 title: Yvo.Solutions
 summary: Yvo.Solutions - Software Consulting.
 url: /index.html
-layout: layouts/base.njk
+layout: layouts/home.njk
 ---
 
 # Yvo.Solutions
@@ -23,7 +23,7 @@ Fast and robust **software** <span>for your **business**</span>.
 
 Yvo.Solutions provides software engineering and consulting services in the fields of Computer Aided Design (CAD), Robotics and Healthcare. Yvo.Solutions specializes in C++ and high performance applications, and focuses on software quality.
 
-Yvo.Solutions is based in France and can operate across European Union.
+Yvo.Solutions is based in France and can operate across the European Union.
 
 ## References
 

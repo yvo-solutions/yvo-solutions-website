@@ -12,16 +12,12 @@
     <meta property="og:description" content="{{ summary }}"/>
     <meta property="og:image" content="favicon.ico"/>
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="css/main.css">
+    {% block css %}{% endblock %}
   </head>
   <body>
     {% include "layouts/header.njk" %}
-    <div id="central">
-      <main>
-        {{ content | safe }}
-      </main>
-    </div>
+    {% block main %}{% endblock %}
     {% include "layouts/footer.njk" %}
-    <script async="async" src="js/main.js"></script>
+    {% block js %}{% endblock %}
   </body>
 </html>

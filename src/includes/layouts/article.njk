@@ -1,0 +1,23 @@
+{% extends "layouts/base.njk" %}
+
+{% block css %}
+    <link rel="stylesheet" href="/css/article.css" />
+{% endblock %}
+
+{% block js %}
+    <script async="async" src="/js/main.min.js"></script>
+{% endblock %}
+
+{% block main %}
+    <div id="central">
+      <main>
+        {{ content | safe }}
+      </main>
+      <section class="left">
+        <p>Some content on the left.<p/>
+      </section>
+      <section class="right">
+        <p>Some content on the right.<p/>
+      </section>
+    </div>
+{% endblock %}
