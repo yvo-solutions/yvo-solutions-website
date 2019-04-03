@@ -1,8 +1,10 @@
+import gulp from "gulp";
 import sass from "gulp-sass";
+import paths from "./paths.js";
 
-gulp.task("scss", () => {
-    return gulp.src("./src/scss/*.scss")
+export default function compileCss() {
+    return gulp.src(paths.css.src)
                .pipe(sass({ outputStyle: "compressed" })
                .on("error", sass.logError))
-               .pipe(gulp.dest("./build/css"));
-});
+               .pipe(gulp.dest(paths.css.dest));
+};

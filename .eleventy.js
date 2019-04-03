@@ -1,10 +1,24 @@
+const htmlmin = require("html-minifier");
+
 module.exports = function (config) {
+    config.addTransform("htmlmin", function(content, outputPath) {
+        if( outputPath.endsWith(".html") ) {
+            let minified = htmlmin.minify(content, {
+                useShortDoctype: true,
+                removeComments: true,
+                collapseWhitespace: true
+            });
+
+            return minified;
+        }
+
+        return content;
+    });
+
     return {
         templateFormats: [
             "md",
             "njk",
-            "js",
-            "css",
             "png",
             "jpg",
             "ico",
