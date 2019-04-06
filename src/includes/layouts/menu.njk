@@ -83,16 +83,20 @@ set navMainMenu = [
     <ul>
         {% for link in navMainMenu %}
             <li class="{{ link.class }}">
-                <a class="{{ 'is-active' if link.href in page.url }}" href="{{ link.href }}">
-                    {{ link.title }}
-                </a>
+                <div class="menu_title {{ 'is-active' if link.href in page.url }}">
+                    <a class="{{ 'is-active' if link.href in page.url }}" href="{{ link.href }}">
+                        {{ link.title }}
+                    </a>
+                </div>
                 {% if link.hasOwnProperty("children") %}
                     <ul>
                         {% for subLink in link.children %}
                             <li class="{{ subLink.class }}">
-                                <a class="{{ 'is-active' if subLink.href in page.url }}" href="{{ subLink.href }}">
-                                    {{ subLink.title }}
-                                </a>
+                                <div class="menu_subtitle {{ 'is-active' if link.href in page.url }}">
+                                    <a class="{{ 'is-active' if subLink.href in page.url }}" href="{{ subLink.href }}">
+                                        {{ subLink.title }}
+                                    </a>
+                                </div>
                             </li>
                         {% endfor %}
                     </ul>

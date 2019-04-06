@@ -22,11 +22,10 @@ header {
         background-color: green;
     }
 
-    /*
     .middle {
-        display: none
+        grid-area: middle;
+        //display: none;
     }
-    */
 }
 
 @media only screen and (min-width: $screen-large) {
