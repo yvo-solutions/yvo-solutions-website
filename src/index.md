@@ -5,6 +5,8 @@ url: /index.html
 layout: layouts/home.njk
 ---
 
+<section class="landing-page">
+
 # Yvo.Solutions
 
 [comment]: <> ("Immersive" scalable responsive image - buy one??)
@@ -17,6 +19,9 @@ layout: layouts/home.njk
 
 Fast and robust **software** <span>for your **business**</span>.
 
+</section>
+<section class="summary">
+
 ## Summary
 
 [comment]: <> (TODO: find something more catchy...)
@@ -25,9 +30,63 @@ Yvo.Solutions provides software engineering and consulting services in the field
 
 Yvo.Solutions is based in France and can operate across the European Union.
 
-## References
+</section>
+<section class="services">
 
-### Companies
+## Services
+
+<article class="cad-plm">
+
+### Computer-Aided Design and Product Lifecycle Management
+
+<span class="content">
+
+[comment]: <> (Rework the text and add either the 3DX logo or some awesome 3D pic - buy one??)
+
+If you need an experienced software architect to implement custom applications on top of the 3DEXPERIENCE (R), you have come to the right place. With more than 10 years of experience in CAA and field experience of a successful 3DEXPERIENCE deployment, Yvo.Solutions is ideally positionned to provide you with the best in-class services.
+
+Read more [here]
+
+</span>
+<span class="blank"></span>
+</article>
+<article class="robotics">
+
+### Robotics
+
+<span class="content">
+
+[comment]: <> (Come up with a good pic of a robot... Draw one?? Buy one??)
+
+Yvo.Solutions' extensive knowledge of C++, combined with experience in ROS and OpenCV can help you integrate the different components of your robotics system into an actually working robot. Areas where Yvo.Solutions can help include:
+* Improve performance (latency/throughput)
+* Debug complex multithreading problems
+* Implement complex algorithms in modern C++
+
+Read more [here]
+
+</span>
+<span class="blank"></span>
+</article>
+<article class="healthcare">
+
+### Healthcare
+
+<span class="content">
+
+[comment]: <> (Again, image required here)
+
+Yvo.Solutions can save your life with HL7 and low latency C++!
+
+Read more [here]
+
+</span>
+<span class="blank"></span>
+</article>
+</section>
+<section class="references">
+
+## References
 
 [comment]: <> (Use logos instead of list...)
 
@@ -43,9 +102,23 @@ Yvo.Solutions is based in France and can operate across the European Union.
 * Quality Spa
 * DeltaCAD
 
-### Locations
+</section>
+<section class="locations">
 
-[comment]: <> (Use Google Maps - or rather something open source - instead)
+## Locations
+
+[comment]: <> (Use D3 with built-in map instead)
+
+### Where Yvo.Solutions can provide services
+
+* France
+* European Union
+* Switzerland
+* United Kingdom
+* Norway
+* Japan (TBC)
+
+### Previous missions
 
 * Providence (United States)
 * Las Vegas (United States)
@@ -58,31 +131,4 @@ Yvo.Solutions is based in France and can operate across the European Union.
 * Gennes-Val-De-Loire (France)
 * Saumur (France)
 
-## Services
-
-### Computer-Aided Design and Product Lifecycle Management
-
-[comment]: <> (Rework the text and add either the 3DX logo or some awesome 3D pic - buy one??)
-
-If you need an experienced software architect to implement custom applications on top of the 3DEXPERIENCE (R), you have come to the right place. With more than 10 years of experience in CAA and field experience of a successful 3DEXPERIENCE deployment, Yvo.Solutions is ideally positionned to provide you with the best in-class services.
-
-Read more [here]
-
-### Robotics
-
-[comment]: <> (Come up with a good pic of a robot... Draw one?? Buy one??)
-
-Yvo.Solutions' extensive knowledge of C++, combined with experience in ROS and OpenCV can help you integrate the different components of your robotics system into an actually working robot. Areas where Yvo.Solutions can help include:
-* Improve performance (latency/throughput)
-* Debug complex multithreading problems
-* Implement complex algorithms in modern C++
-
-Read more [here]
-
-### Healthcare
-
-[comment]: <> (Again, image required here)
-
-Yvo.Solutions can save your life with HL7, experience in and low latency C++
-
-Read more [here]
+</section>

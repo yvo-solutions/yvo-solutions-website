@@ -3,173 +3,134 @@ body {
     background-color: aqua;
 }
 
-body div#central {
-    background-color: pink;
-    display: grid;
-    grid-gap: 1em;
-    grid-template-areas:
-        "main"
-        "left"
-        "right";
-}
-
 header {
-    background-color: #999;
-    display: grid;
-    grid-template-columns: auto 5em;
-    grid-template-areas: 
-        "left   right"
-        "middle middle";
+    display: none;
 }
 
 footer {
-    background-color: #999;
-    display: grid;
-    grid-template-areas: 
-        "left"
-        "right";
+    display: none;
 }
+
+/*-----------------------------------------------*/
 
 main {
-    grid-area: main;
-    background-color: coral;
-}
-
-.left {
-    grid-area: left;
-    background-color: red;
-}
-
-.middle {
-    grid-area: middle;
-    background-color: grey;
-}
-
-/*
-header div.middle {
-    display: none
-}
-*/
-
-.right {
-    grid-area: right;
-    background-color: green;
-}
-
-.content {
-    grid-area: content;
-    background-color: grey;
-}
-
-footer .left, footer .right, .content {
-    padding: 10px;
-}
-
-header .left .logo .yvo_solutions {
-    padding: 0;
-    margin: 0;
-    background-color: salmon;
-}
-
-nav.main_menu ul {
-    list-style: none;
-    list-style-type: none;
-    margin: 0;
+    background-color: pink;
     display: grid;
     grid-template-areas:
-        "first"
-        "second"
-        "third"
-        "fourth"
-        "fifth";
+        "landing-page"
+        "summary"
+        "services"
+        "references"
+        "locations";
 }
 
-nav.main_menu ul li {
+section.landing-page {
+    grid-area: landing-page;
+    background-color: red;
+    height: 100vh;
+}
+
+section.summary {
+    grid-area: summary;
+    background-color: grey;
+}
+
+section.services {
+    grid-area: services;
+    background-color: green;
+    display: grid;
+    grid-template-areas:
+        "title"
+        "cad-plm"
+        "robotics"
+        "healthcare";
+}
+
+section.references {
+    grid-area: references;
+    background-color: yellow;
+}
+
+section.locations {
+    grid-area: locations;
+    background-color: blue;
+    height: 100vh;
+}
+
+article.cad-plm {
+    grid-area: cad-plm;
+    background-color: cyan;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: min-content auto;
+    grid-template-areas:
+        "title"
+        "content";
+}
+
+article.robotics {
+    grid-area: robotics;
+    background-color: orange;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: min-content auto;
+    grid-template-areas:
+        "title"
+        "content";
+}
+
+article.healthcare {
+    grid-area: healthcare;
+    background-color: violet;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: min-content auto;
+    grid-template-areas:
+        "title"
+        "content";
+}
+
+article h3, section h2 {
+    grid-area: title;
+    background-color: gold;
+    margin: 0;
+    padding: 0;
+}
+
+article .content {
+    grid-area: content;
+    background-color: pink;
+}
+
+article .blank {
+    grid-area: blank;
     background-color: beige;
-}
-
-nav.main_menu ul li.services {
-    grid-area: first;
-}
-
-nav.main_menu ul li.fields {
-    grid-area: second;
-}
-
-nav.main_menu ul li.technologies {
-    grid-area: third;
-}
-
-nav.main_menu ul li.news {
-    grid-area: fourth;
-}
-
-nav.main_menu ul li.contact {
-    grid-area: fifth;
-}
-
-@media only screen and (min-width: 500px) {
-    body div#central {
-        grid-template-columns: 20% auto;
-        grid-template-areas:
-            "left  main"
-            "right right";
-    }
-
-    footer {
-        grid-template-columns: auto 20%;
-        grid-template-areas:
-            "left right"
-    }
+    display: none;
 }
 
 @media only screen and (min-width: 600px) {
-    body div#central {
-        margin-left: 2%;
-        margin-right: 2%;
-        grid-gap: 20px;
-        grid-template-columns: 120px auto 120px;
+    article.cad-plm {
+        grid-template-columns: auto 50%;
         grid-template-areas:
-            "left main right";
+            "title title"
+            "blank content";
     }
 
-    header {
-        grid-template-columns: 20% auto;
-        grid-template-areas: 
-            "left middle";
-    }
-
-    header div.right {
-        display: none
-    }
-
-    nav.main_menu ul {
-        list-style: none;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        vertical-align: center;
-        display: grid;
+    article.robotics {
+        grid-template-columns: 50% auto;
         grid-template-areas:
-            "first second third fourth fifth";
+            "title   title"
+            "content blank";
     }
 
-    nav.main_menu ul li ul {
-        position: absolute;
-        display: none;
+    article.healthcare {
+        grid-template-columns: auto 50%;
+        grid-template-areas:
+            "title title"
+            "blank content";
     }
 
-    nav.main_menu ul li ul li {
-        position: relative;
-        padding: 2em;
-    }
-    
-    nav.main_menu ul li:hover > ul {
-        display: block;
-    }
-
-    nav.main_menu ul li:hover, nav.main_menu ul ul li:hover {
-        background-color: orange;
+    article .blank {
+        display: inherit;
     }
 }
