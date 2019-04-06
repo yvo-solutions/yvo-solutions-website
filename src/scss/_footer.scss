@@ -1,0 +1,27 @@
+footer {
+    background-color: #999;
+    display: grid;
+    grid-template-areas: 
+        "left"
+        "right";
+
+    .left {
+        grid-area: left;
+        background-color: red;
+        padding: 10px;
+    }
+
+    .right {
+        grid-area: right;
+        background-color: green;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: $screen-medium) {
+    footer {
+        grid-template-columns: auto 20%;
+        grid-template-areas:
+            "left right"
+    }
+}

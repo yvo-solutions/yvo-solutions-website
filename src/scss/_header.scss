@@ -1,0 +1,42 @@
+header {
+    background-color: #999;
+    display: grid;
+    grid-template-columns: auto 5em;
+    grid-template-areas: 
+        "left   right"
+        "middle middle";
+
+    .left {
+        grid-area: left;
+        background-color: red;
+
+        .logo .yvo_solutions {
+            padding: 0;
+            margin: 0;
+            background-color: salmon;
+        }
+    }
+
+    .right {
+        grid-area: right;
+        background-color: green;
+    }
+
+    /*
+    .middle {
+        display: none
+    }
+    */
+}
+
+@media only screen and (min-width: $screen-large) {
+    header {
+        grid-template-columns: 20% auto;
+        grid-template-areas: 
+            "left middle";
+        
+        div.right {
+            display: none
+        }
+    }
+}
