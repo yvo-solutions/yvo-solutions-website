@@ -6,27 +6,19 @@ layout: layouts/home.njk
 ---
 
 <section class="landing-page">
-<div class="landing-page-text">
-
-# Yvo.Solutions
-
-[comment]: <> ("Immersive" scalable responsive image - buy one??)
-
-[comment]: <> (If WebGL is enabled, overload the image with a canvas - after the page has loaded)
-
-[comment]: <> (Let's give birth to your software ideas.)
-
-[comment]: <> (Donnons vie à vos projets informatiques.)
-
-Fast and robust **software** <span>for your **business**</span>.
-
-</div>
+    <div class="landing-page-title">
+        <h1 class="yvo_solutions">
+            <span class="yvo">Yvo</span><span class="solutions">.Solutions</span>
+        </h1>
+        <div class="landing-page-subtitle">
+            <span class="line-one">Robust and fast <strong>software</strong></span>
+            <span class="line-two">for your <strong>business</strong></span>.
+        </div>
+    </div>
 </section>
 <section class="summary">
 
 ## Summary
-
-[comment]: <> (TODO: find something more catchy...)
 
 Yvo.Solutions provides software engineering and consulting services in the fields of Computer Aided Design (CAD), Robotics and Healthcare. Yvo.Solutions specializes in C++ and high performance applications, and focuses on software quality.
 

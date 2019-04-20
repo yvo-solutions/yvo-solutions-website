@@ -12,9 +12,21 @@ header {
 
         .logo .yvo_solutions {
             margin: 0;
-            padding-left: 1em;
+            padding-left: 4em;
             padding-top: $header-padding-height;
             padding-bottom: $header-padding-height;
+
+            a {
+                text-decoration: none;
+
+                .yvo {
+                    color: gray;
+                }
+    
+                .solutions {
+                    color: black;
+                }    
+            }
         }
     }
 
