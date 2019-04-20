@@ -78,10 +78,13 @@ nav.main_menu {
             text-align: center;
             vertical-align: center;
             display: grid;
+            grid-template-columns: 20% 20% 20% 20% 20%;
             grid-template-areas:
                 "first second third fourth fifth";
 
             li {
+                background-color: transparent;
+
                 .menu_title {
                     padding-left: 0;
                     padding-top: 0;
@@ -92,11 +95,13 @@ nav.main_menu {
                 }
 
                 ul {
-                    position: absolute;
                     display: none;
+                    background-color: $color-light;
+                    border-color: $color-dark;
+                    border-style: solid;
+                    border-width: 1px;
 
                     li {
-                        position: relative;
                         padding: 2em;
 
                         .menu_subtitle {

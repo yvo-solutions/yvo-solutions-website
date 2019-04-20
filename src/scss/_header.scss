@@ -1,5 +1,5 @@
 header {
-    background-color: #999;
+    //background-color: #999;
     display: grid;
     grid-template-columns: auto 5em;
     grid-template-areas: 
@@ -8,18 +8,18 @@ header {
 
     .left {
         grid-area: left;
-        background-color: red;
+        //background-color: red;
 
         .logo .yvo_solutions {
             padding: 0;
             margin: 0;
-            background-color: salmon;
+            //background-color: salmon;
         }
     }
 
     .right {
         grid-area: right;
-        background-color: green;
+        //background-color: green;
     }
 
     .middle {
@@ -30,6 +30,11 @@ header {
 
 @media only screen and (min-width: $screen-large) {
     header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
         grid-template-columns: 20% auto;
         grid-template-areas: 
             "left middle";

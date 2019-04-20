@@ -6,11 +6,11 @@
 body {
     font: 100% $font-stack;
     margin: 0;
-    background-color: aqua;
+    //background-color: aqua;
 }
 
 main {
-    background-color: pink;
+    //background-color: pink;
     display: grid;
     grid-template-areas:
         "landing-page"
@@ -22,18 +22,18 @@ main {
 
 section.landing-page {
     grid-area: landing-page;
-    background-color: red;
+    //background-color: red;
     height: 100vh;
 }
 
 section.summary {
     grid-area: summary;
-    background-color: grey;
+    //background-color: grey;
 }
 
 section.services {
     grid-area: services;
-    background-color: green;
+    //background-color: green;
     display: grid;
     grid-template-areas:
         "title"
@@ -44,18 +44,18 @@ section.services {
 
 section.references {
     grid-area: references;
-    background-color: yellow;
+    //background-color: yellow;
 }
 
 section.locations {
     grid-area: locations;
-    background-color: blue;
+    //background-color: blue;
     height: 100vh;
 }
 
 article.cad-plm {
     grid-area: cad-plm;
-    background-color: cyan;
+    //background-color: cyan;
     height: 100vh;
     display: grid;
     grid-template-rows: min-content auto;
@@ -66,7 +66,7 @@ article.cad-plm {
 
 article.robotics {
     grid-area: robotics;
-    background-color: orange;
+    //background-color: orange;
     height: 100vh;
     display: grid;
     grid-template-rows: min-content auto;
@@ -77,7 +77,7 @@ article.robotics {
 
 article.healthcare {
     grid-area: healthcare;
-    background-color: violet;
+    //background-color: violet;
     height: 100vh;
     display: grid;
     grid-template-rows: min-content auto;
@@ -88,19 +88,19 @@ article.healthcare {
 
 article h3, section h2 {
     grid-area: title;
-    background-color: gold;
+    //background-color: gold;
     margin: 0;
     padding: 0;
 }
 
 article .content {
     grid-area: content;
-    background-color: pink;
+    //background-color: pink;
 }
 
 article .blank {
     grid-area: blank;
-    background-color: beige;
+    //background-color: beige;
     display: none;
 }
 
