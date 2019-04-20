@@ -87,19 +87,14 @@ nav.main_menu {
 
                 .menu_title {
                     padding-left: 0;
-                    padding-top: 0;
-                    padding-bottom: 0;
-                    border-color: $color-light;
-                    border-style: solid;
-                    border-width: 1px;
+                    padding-top: $header-padding-height;
+                    padding-bottom: $header-padding-height;
+                    background-color: transparent;
                 }
 
                 ul {
                     display: none;
                     background-color: $color-light;
-                    border-color: $color-dark;
-                    border-style: solid;
-                    border-width: 1px;
 
                     li {
                         padding: 2em;

@@ -6,6 +6,7 @@ layout: layouts/home.njk
 ---
 
 <section class="landing-page">
+<div class="landing-page-text">
 
 # Yvo.Solutions
 
@@ -19,6 +20,7 @@ layout: layouts/home.njk
 
 Fast and robust **software** <span>for your **business**</span>.
 
+</div>
 </section>
 <section class="summary">
 
