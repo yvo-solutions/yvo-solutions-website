@@ -6,11 +6,9 @@
 body {
     font: 100% $font-stack;
     margin: 0;
-    //background-color: aqua;
 }
 
 main {
-    //background-color: pink;
     display: grid;
     grid-template-areas:
         "landing-page"
@@ -22,18 +20,51 @@ main {
 
 section.landing-page {
     grid-area: landing-page;
-    background-color: red;
+    background-image: url("/img/landing_page_background_1000.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
     height: 100vh;
+
+    .landing-page-title {
+        margin-top: 7em;
+        margin-left: 2em;
+        color: $color-light;
+
+        h1.yvo_solutions {
+            background-image: url("/img/landing_page_logo_200.png");
+            background-repeat: no-repeat;
+            height: 100px;
+            width: 200px;
+
+            .yvo {
+                display: none;
+            }
+
+            .solutions {
+                display: none;
+            }
+        }
+
+        .landing-page-subtitle {
+            font: 150% $font-stack;
+            padding-top: 3em;
+            padding-left: 1em;
+
+            .line-two {
+                display: block;
+                padding-top: 0em;
+                padding-left: 3em;
+            }
+        }
+    }
 }
 
 section.summary {
     grid-area: summary;
-    //background-color: grey;
 }
 
 section.services {
     grid-area: services;
-    //background-color: green;
     display: grid;
     grid-template-areas:
         "title"
@@ -44,18 +75,15 @@ section.services {
 
 section.references {
     grid-area: references;
-    //background-color: yellow;
 }
 
 section.locations {
     grid-area: locations;
-    //background-color: blue;
     height: 100vh;
 }
 
 article.cad-plm {
     grid-area: cad-plm;
-    //background-color: cyan;
     height: 100vh;
     display: grid;
     grid-template-rows: min-content auto;
@@ -66,7 +94,6 @@ article.cad-plm {
 
 article.robotics {
     grid-area: robotics;
-    //background-color: orange;
     height: 100vh;
     display: grid;
     grid-template-rows: min-content auto;
@@ -77,7 +104,6 @@ article.robotics {
 
 article.healthcare {
     grid-area: healthcare;
-    //background-color: violet;
     height: 100vh;
     display: grid;
     grid-template-rows: min-content auto;
@@ -88,27 +114,43 @@ article.healthcare {
 
 article h3, section h2 {
     grid-area: title;
-    //background-color: gold;
     margin: 0;
     padding: 0;
 }
 
 article .content {
     grid-area: content;
-    //background-color: pink;
 }
 
 article .blank {
     grid-area: blank;
-    //background-color: beige;
     display: none;
 }
 
 @media only screen and (min-width: $screen-large) {
     section.landing-page {
+        background-image: url("/img/landing_page_background_2000.jpg");
+
         .landing-page-title {
             margin-top: 10em;
             margin-left: 7.5em;
+
+            h1.yvo_solutions {
+                background-image: url("/img/landing_page_logo_400.png");
+                background-repeat: no-repeat;
+                height: 200px;
+                width: 400px;
+            }
+
+            .landing-page-subtitle {
+                font: 250% $font-stack;
+                padding-top: 2em;
+                padding-left: 4em;
+    
+                .line-two {
+                    padding-left: 3em;
+                }
+            }
         }
     }
 

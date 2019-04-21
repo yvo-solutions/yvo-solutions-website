@@ -1,5 +1,5 @@
 header {
-    //background-color: #999;
+    background-color: $color-dark;
     display: grid;
     grid-template-columns: auto 5em;
     grid-template-areas: 
@@ -8,24 +8,30 @@ header {
 
     .left {
         grid-area: left;
-        //background-color: red;
 
         .logo .yvo_solutions {
             margin: 0;
-            padding-left: 4em;
+            padding-left: 2em;
             padding-top: $header-padding-height;
             padding-bottom: $header-padding-height;
 
             a {
+                font: 120% $font-stack;
+                padding-top: 0.5em;
+                padding-bottom: 0.5em;
+                padding-left: 2em;
                 text-decoration: none;
+                background-image: url("/img/header_logo.png");
+                background-position: 0;
+                background-repeat: no-repeat;
 
                 .yvo {
-                    color: gray;
+                    color: $color-yvo-inverse;
                 }
     
                 .solutions {
-                    color: black;
-                }    
+                    color: $color-solutions;
+                }
             }
         }
     }
@@ -34,17 +40,17 @@ header {
         grid-area: right;
         padding-top: $header-padding-height;
         padding-bottom: $header-padding-height;
-        //background-color: green;
     }
 
     .middle {
         grid-area: middle;
-        //display: none; // @TODO: uncomment for PROD
+        display: none;
     }
 }
 
 @media only screen and (min-width: $screen-large) {
     header {
+        background-color: transparent;
         position: absolute;
         top: 0;
         left: 0;
@@ -56,6 +62,10 @@ header {
 
         div.right {
             display: none
+        }
+
+        .middle {
+            display: block;
         }
     }
 }

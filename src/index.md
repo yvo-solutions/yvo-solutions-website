@@ -12,7 +12,7 @@ layout: layouts/home.njk
         </h1>
         <div class="landing-page-subtitle">
             <span class="line-one">Robust and fast <strong>software</strong></span>
-            <span class="line-two">for your <strong>business</strong></span>.
+            <span class="line-two">for your <strong>business</strong>.</span>
         </div>
     </div>
 </section>
