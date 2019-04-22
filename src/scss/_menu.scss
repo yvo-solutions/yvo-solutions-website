@@ -93,7 +93,10 @@ nav.main_menu {
                 }
 
                 ul {
-                    display: none;
+                    max-height: 0;
+                    transition: max-height 500ms ease;
+                    overflow: hidden;
+                    display: block;
                     background-color: $color-light;
 
                     li {
@@ -115,6 +118,7 @@ nav.main_menu {
 
             li:hover > ul {
                 display: block;
+                max-height: 1000px;
             }
 
             li:hover {
