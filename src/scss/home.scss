@@ -24,6 +24,7 @@ section.landing-page {
     background-position: center top;
     background-repeat: no-repeat;
     height: 100vh;
+    overflow: hidden;
 
     .landing-page-title {
         margin-top: 7em;
@@ -62,6 +63,12 @@ section.landing-page {
 
 section.summary {
     grid-area: summary;
+    padding: 2em;
+    color: $color-dark
+
+    h1 {
+        font: 120% $font-stack;
+    }
 }
 
 section.services {
