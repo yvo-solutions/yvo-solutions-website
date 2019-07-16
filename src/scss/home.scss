@@ -20,7 +20,7 @@ main {
 
 section.landing-page {
     grid-area: landing-page;
-    background-image: url("/img/landing_page_background_1000.jpg");
+    background-image: url("/img/backgrounds/landing_page_main_1000.jpg");
     background-position: center top;
     background-repeat: no-repeat;
     height: 100vh;
@@ -32,7 +32,7 @@ section.landing-page {
         color: $color-light;
 
         h1.yvo_solutions {
-            background-image: url("/img/landing_page_logo_200.png");
+            background-image: url("/img/yvo_logo/landing_page_logo_200.png");
             background-repeat: no-repeat;
             height: 100px;
             width: 200px;
@@ -137,14 +137,14 @@ article .blank {
 
 @media only screen and (min-width: $screen-large) {
     section.landing-page {
-        background-image: url("/img/landing_page_background_2000.jpg");
+        background-image: url("/img/backgrounds/landing_page_main_2000.jpg");
 
         .landing-page-title {
             margin-top: 10em;
             margin-left: 7.5em;
 
             h1.yvo_solutions {
-                background-image: url("/img/landing_page_logo_400.png");
+                background-image: url("/img/yvo_logo/landing_page_logo_400.png");
                 background-repeat: no-repeat;
                 height: 200px;
                 width: 400px;
