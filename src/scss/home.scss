@@ -4,7 +4,7 @@
 @import 'menu';
 
 body {
-    font: 100% $font-stack;
+    font: 110% $font-stack;
     margin: 0;
 }
 
@@ -47,7 +47,7 @@ section.landing-page {
         }
 
         .landing-page-subtitle {
-            font: 150% $font-stack;
+            font: 130% $font-stack;
             text-shadow: 0 0 5px #000;
             padding-top: 3em;
             padding-left: 1em;
@@ -78,8 +78,8 @@ section.services {
         "healthcare";
 
     h2 {
-        padding-left: 32px;
-        padding-top: 32px;
+        padding-left: 35px;
+        padding-top: 35px;
         padding-bottom: 5px;
         color: $color-light;
         text-shadow: 0 0 5px #000;
@@ -104,7 +104,7 @@ article.cad-plm {
     background-position: center top;
     background-repeat: no-repeat;
     background-color: black;
-    height: 100vh;
+    height: 90vh;
     color: $color-light;
     text-shadow: 0 0 5px #000;
     display: grid;
@@ -123,7 +123,7 @@ article.robotics {
     background-color: white;
     color: $color-dark;
     text-shadow: 0 0 5px #fff;
-    height: 100vh;
+    height: 90vh;
     display: grid;
     grid-template-rows: min-content auto;
     grid-template-areas:
@@ -138,7 +138,9 @@ article.healthcare {
     background-position: center top;
     background-repeat: no-repeat;
     background-color: #b9b9b9;
-    height: 100vh;
+    color: $color-dark;
+    text-shadow: 0 0 5px #b9b9b9;
+    height: 90vh;
     display: grid;
     grid-template-rows: min-content auto;
     grid-template-areas:
@@ -162,13 +164,23 @@ article .blank {
 }
 
 @media only screen and (min-width: $screen-large) {
+    body {
+        font: 150% $font-stack;
+    }
+
+    section.services {
+        h2 {
+            padding-left: 48px;
+            padding-top: 48px;
+        }
+    }
+
     section.landing-page {
         background-image: url("/img/backgrounds/landing_page_main_2000.jpg");
-        background-size: 100% auto;
 
         .landing-page-title {
-            margin-top: 10em;
-            margin-left: 7.5em;
+            margin-top: 5em;
+            margin-left: 5em;
 
             h1.yvo_solutions {
                 background-image: url("/img/yvo_logo/landing_page_logo_400.png");
@@ -221,5 +233,9 @@ article .blank {
 
     article .blank {
         display: inherit;
+    }
+
+    article .content p {
+        margin-top: 10%;
     }
 }

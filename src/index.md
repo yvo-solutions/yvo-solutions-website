@@ -24,6 +24,15 @@ Yvo.Solutions provides software engineering and consulting services in the field
 
 Yvo.Solutions is based in France and can operate across the European Union.
 
+<!--
+
+Areas where Yvo.Solutions can help include:
+* Improve performance (latency/throughput),
+* Debug complex, multithreaded and distributed software,
+* Implement complex algorithms in modern C++.
+
+-->
+
 </section>
 <section class="services">
 
@@ -50,14 +59,9 @@ With more than 10 years of experience in CAA and field experience of successful 
 
 <span class="content">
 
-Yvo.Solutions can help you integrate the different components of your robotics systems into an actual robot, like the Aeolus Bot &#174;.
+Yvo.Solutions can integrate the different components of your robotics systems into an actual robot, like the Aeolus Bot &#174;.
 
 With extensive knowledge of C++, combined with experience in ROS and OpenCV, Yvo.Solutions is a logical choice to strengthen your software team. 
-
-Areas where Yvo.Solutions can help include:
-* Improve performance (latency/throughput),
-* Debug complex, multithreaded and distributed software,
-* Implement complex algorithms in modern C++.
 
 <!-- Read more [here] -->
 
@@ -70,7 +74,9 @@ Areas where Yvo.Solutions can help include:
 
 <span class="content">
 
-Yvo.Solutions 
+Yvo.Solutions can look after your medical devices, such as the Capsule Neuron &#174;.
+
+Yvo.Solutions has experience in the highly demanding field of healthcare. With knowledge about communication protocols (Serial, TCP, UDP, etc.), and domain specific formats such as HL7, Yvo.Solutions can be a key contributor to your organization.
 
 <!-- Read more [here] -->
 
