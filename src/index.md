@@ -35,9 +35,7 @@ Yvo.Solutions is based in France and can operate across the European Union.
 
 <span class="content">
 
-[comment]: <> (Rework the text and add either the 3DX logo or some awesome 3D pic - buy one??)
-
-If you need an experienced software architect to implement custom applications on top of the 3DEXPERIENCE (R), you have come to the right place. With more than 10 years of experience in CAA and field experience of a successful 3DEXPERIENCE deployment, Yvo.Solutions is ideally positionned to provide you with the best in-class services.
+If you need an experienced software architect to implement custom applications on top of the 3DEXPERIENCE (R), you have come to the right place. With more than 10 years of experience in CAA and field experience of successful 3DEXPERIENCE deployments, Yvo.Solutions is ideally positionned to provide you with the best in-class services.
 
 Read more [here]
 
