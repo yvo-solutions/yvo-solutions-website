@@ -68,7 +68,7 @@ section.summary {
 }
 
 section.services {
-    background-color: $color-dark;
+    background-color: black;
     grid-area: services;
     display: grid;
     grid-template-areas:
@@ -79,7 +79,7 @@ section.services {
 
     h2 {
         padding-left: 32px;
-        padding-top: 10px;
+        padding-top: 32px;
         padding-bottom: 5px;
         color: $color-light;
         text-shadow: 0 0 5px #000;
@@ -121,6 +121,8 @@ article.robotics {
     background-position: center top;
     background-repeat: no-repeat;
     background-color: white;
+    color: $color-dark;
+    text-shadow: 0 0 5px #fff;
     height: 100vh;
     display: grid;
     grid-template-rows: min-content auto;
@@ -162,6 +164,7 @@ article .blank {
 @media only screen and (min-width: $screen-large) {
     section.landing-page {
         background-image: url("/img/backgrounds/landing_page_main_2000.jpg");
+        background-size: 100% auto;
 
         .landing-page-title {
             margin-top: 10em;

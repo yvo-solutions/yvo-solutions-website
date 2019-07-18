@@ -35,9 +35,11 @@ Yvo.Solutions is based in France and can operate across the European Union.
 
 <span class="content">
 
-If you need an experienced software architect to implement custom applications on top of the 3DEXPERIENCE (R), you have come to the right place. With more than 10 years of experience in CAA and field experience of successful 3DEXPERIENCE deployments, Yvo.Solutions is ideally positionned to provide you with the best in-class services.
+If you need an experienced software architect to implement custom applications on top of the 3DEXPERIENCE &#174;, you have come to the right place.
 
-Read more [here]
+With more than 10 years of experience in CAA and field experience of successful 3DEXPERIENCE deployments, Yvo.Solutions is ideally positioned to provide you with the best in-class services.
+
+<!-- Read more [here] -->
 
 </span>
 <span class="blank"></span>
@@ -48,14 +50,16 @@ Read more [here]
 
 <span class="content">
 
-[comment]: <> (Come up with a good pic of a robot... Draw one?? Buy one??)
+Yvo.Solutions can help you integrate the different components of your robotics systems into an actual robot, like the Aeolus Bot &#174;.
 
-Yvo.Solutions' extensive knowledge of C++, combined with experience in ROS and OpenCV can help you integrate the different components of your robotics system into an actually working robot. Areas where Yvo.Solutions can help include:
-* Improve performance (latency/throughput)
-* Debug complex multithreading problems
-* Implement complex algorithms in modern C++
+With extensive knowledge of C++, combined with experience in ROS and OpenCV, Yvo.Solutions is a logical choice to strengthen your software team. 
 
-Read more [here]
+Areas where Yvo.Solutions can help include:
+* Improve performance (latency/throughput),
+* Debug complex, multithreaded and distributed software,
+* Implement complex algorithms in modern C++.
+
+<!-- Read more [here] -->
 
 </span>
 <span class="blank"></span>
@@ -66,16 +70,17 @@ Read more [here]
 
 <span class="content">
 
-[comment]: <> (Again, image required here)
+Yvo.Solutions 
 
-Yvo.Solutions can save your life with HL7 and low latency C++!
-
-Read more [here]
+<!-- Read more [here] -->
 
 </span>
 <span class="blank"></span>
 </article>
 </section>
+
+<!--
+
 <section class="references">
 
 ## References
@@ -124,3 +129,5 @@ Read more [here]
 * Saumur (France)
 
 </section>
+
+-->
