@@ -239,3 +239,9 @@ article .blank {
         margin-top: 10%;
     }
 }
+
+@media only screen and (min-width: $screen-huge) {
+    section.landing-page {
+        background-image: url("/img/backgrounds/landing_page_main_4000.jpg");
+    }
+}
