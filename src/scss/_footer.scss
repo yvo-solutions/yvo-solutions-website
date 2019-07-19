@@ -1,5 +1,8 @@
 footer {
-    background-color: #999;
+    background-color: $color-dark;
+    color: $color-light;
+    font: 70% $font-stack;
+    padding: $standard-padding;
     display: grid;
     grid-template-areas: 
         "left"
@@ -7,14 +10,60 @@ footer {
 
     .left {
         grid-area: left;
-        background-color: red;
-        padding: 10px;
+
+        address {
+            font-style: normal;
+    
+            .email_label {
+                display: none;
+            }
+    
+            .email_link {
+                background-image: url("/img/icons/email.png");
+                background-repeat: no-repeat;
+                height: 20px;
+                width: 20px;
+                padding-left: 25px;
+            }
+    
+            .phone_label {
+                display: none;
+            }
+    
+            .phone_link {
+                background-image: url("/img/icons/phone.png");
+                background-repeat: no-repeat;
+                height: 20px;
+                width: 20px;
+                padding-left: 20px;
+            }
+        }
     }
 
     .right {
         grid-area: right;
-        background-color: green;
-        padding: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+
+        .back_to_top_link {
+            background-image: url("/img/icons/back_to_top.png");
+            background-repeat: no-repeat;
+            height: 30px;
+            width: 30px;
+        }
+    
+        .back_to_top_label {
+            display: none;
+        }
+    }
+
+    p {
+        margin: 0;
+    }
+
+    a {
+        color: $color-light;
+        text-decoration: none;
     }
 }
 
