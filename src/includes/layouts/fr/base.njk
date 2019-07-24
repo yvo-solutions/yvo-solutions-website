@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="{{ summary }}">
+    <meta name="twitter:card" content="{{ summary }}"/>
+    <meta name="twitter:creator" content="@yvo.solutions"/>
+    <meta property="og:url" content="{{ url }}"/>
+    <meta property="og:title" content="{{ title }}"/>
+    <meta property="og:description" content="{{ summary }}"/>
+    <meta property="og:image" content="favicon.ico"/>
+    <title>{{ title }}</title>
+    {% block css %}{% endblock %}
+  </head>
+  <body>
+    <!-- {% include "layouts/fr/header.njk" %} -->
+    {% block main %}{% endblock %}
+    {% include "layouts/fr/footer.njk" %}
+    {% block js %}{% endblock %}
+  </body>
+</html>
