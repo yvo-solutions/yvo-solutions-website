@@ -1,0 +1,32 @@
+{%
+set navCustomers = [
+    {
+        "name": "Dassault Systèmes",
+        "href": "https://www.3ds.com",
+        "class": "ref_logo_dassault_systemes"
+    },
+    {
+        "name": "Gennes-Val-De-Loire",
+        "href": "https://www.gennes-val-de-loire.fr",
+        "class": "ref_logo_gennes_val_de_loire"
+    }
+]
+%}
+
+<section class="references">
+<h2>References</h2>
+
+<nav class="customers_references">
+    <ul>
+        {% for customer in navCustomers %}
+            <li>
+                <a href="{{ customer.href }}">
+                    <div class="customer_icon {{ customer.class }}">
+                        <span class="customer_name">{{ customer.name }}</span>
+                    </div>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>
+</section>

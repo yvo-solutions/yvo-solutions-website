@@ -76,13 +76,12 @@ Yvo.Solutions has experience in the highly demanding field of healthcare. With k
 </article>
 </section>
 
+
 <!--
 
 <section class="references">
 
 ## References
-
-[comment]: <> (Use logos instead of list...)
 
 * Dassault Systemes
 * Qualcomm Life

@@ -1,0 +1,36 @@
+nav.customers_references {
+    ul {
+        list-style: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-auto-flow: row dense;
+        grid-gap: 0.5em;
+        background-color: $color-light;
+
+        li {
+            height: 200px;
+            width: 200px;
+
+            .customer_icon {
+                
+            }
+
+            .ref_logo_dassault_systemes {
+                background-image: url("/img/customers/logo_dassault_systemes_200.jpg");
+                background-repeat: no-repeat;
+                height: 200px;
+                width: 200px;
+            }
+
+            .ref_logo_gennes_val_de_loire {
+                background-image: url("/img/customers/logo_gennes_val_de_loire_200.jpg");
+            }
+
+            span.customer_name {
+                display: none;
+            }
+        }
+    }
+}
