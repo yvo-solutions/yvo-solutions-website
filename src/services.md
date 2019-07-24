@@ -9,6 +9,15 @@ layout: layouts/article.njk
 
 Solve your problems.
 
+<!--
+
+Areas where Yvo.Solutions can help include:
+* Improve performance (latency/throughput),
+* Debug complex, multithreaded and distributed software,
+* Implement complex algorithms in modern C++.
+
+-->
+
 ## Contracting
 
 Solve your bugs.
