@@ -1,27 +1,29 @@
 nav.customers_references {
+    background-color: $color-light;
+    margin-top: 1em;
+
     ul {
         list-style: none;
         list-style-type: none;
         margin: 0;
-        padding: 0;
+        padding: 0.5em;
         display: grid;
-        grid-auto-flow: row dense;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-flow: column;
         grid-gap: 0.5em;
-        background-color: $color-light;
 
         li {
             height: 200px;
             width: 200px;
 
             .customer_icon {
-                
+                background-repeat: no-repeat;
+                height: 200px;
+                width: 200px;
             }
 
             .ref_logo_dassault_systemes {
                 background-image: url("/img/customers/logo_dassault_systemes_200.jpg");
-                background-repeat: no-repeat;
-                height: 200px;
-                width: 200px;
             }
 
             .ref_logo_gennes_val_de_loire {
