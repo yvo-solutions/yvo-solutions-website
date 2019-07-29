@@ -76,26 +76,8 @@ Yvo.Solutions has experience in the highly demanding field of healthcare. With k
 </article>
 </section>
 
-
 <!--
 
-<section class="references">
-
-## References
-
-* Dassault Systemes
-* Qualcomm Life
-* Mercedes AMG F1
-* Mercedes AMG High Performance Powertrain
-* Renault Sport
-* Commissariat à l'Energie Atomique
-* Aeolus Robotics
-* Processia Solutions
-* Gennes-Val-De-Loire
-* Quality Spa
-* DeltaCAD
-
-</section>
 <section class="locations">
 
 ## Locations

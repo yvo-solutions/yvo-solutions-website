@@ -49,15 +49,13 @@ section.landing-page {
 
         .landing-page-subtitle {
             font: 130% $font-stack;
-            text-shadow: 0 0 5px #000;
+            text-shadow: 0 0 10px #000;
+            text-align: center;
             padding-top: 3em;
             padding-left: 1em;
-
-            .line-two {
-                display: block;
-                padding-top: 0em;
-                padding-left: 3em;
-            }
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
         }
     }
 }
@@ -138,7 +136,7 @@ article.healthcare {
     background-image: url("/img/backgrounds/healthcare_1000.jpg");
     background-position: center top;
     background-repeat: no-repeat;
-    background-color: #b9b9b9;
+    background-color: #d6d6d6;
     color: $color-dark;
     text-shadow: 0 0 5px #b9b9b9;
     height: 90vh;
@@ -164,7 +162,7 @@ article .blank {
     display: none;
 }
 
-@media only screen and (min-width: $screen-large) {
+@media only screen and (min-width: $screen-medium) {
     body {
         font: 150% $font-stack;
     }
@@ -175,7 +173,9 @@ article .blank {
             padding-top: 48px;
         }
     }
+}
 
+@media only screen and (min-width: $screen-large) {
     section.landing-page {
         background-image: url("/img/backgrounds/landing_page_main_2000.jpg");
 
@@ -194,10 +194,6 @@ article .blank {
                 font: 250% $font-stack;
                 padding-top: 2em;
                 padding-left: 4em;
-    
-                .line-two {
-                    padding-left: 3em;
-                }
             }
         }
     }
@@ -226,6 +222,7 @@ article .blank {
         background-image: url("/img/backgrounds/healthcare_2000.jpg");
         background-position: left top;
         background-size: auto 100%;
+        background-color: #b9b9b9;
         grid-template-columns: auto 50%;
         grid-template-areas:
             "title title"
