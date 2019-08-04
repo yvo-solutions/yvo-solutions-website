@@ -23,7 +23,7 @@ Email: contact@yvo.solutions
 
 Webmaster: Mr Loïc Yvonnet
 
-The [yvo.solutions](https://yvo.solutions) domain name is purchased through [GANDI SAS](https://www.gandi.net), whose address is 63-65 boulevard Masséna Paris (75013) France. Its phone number is +33 (0) 1 70.37.76.61.
+The [yvo.solutions](https://yvo.solutions) domain name is purchased to [GANDI SAS](https://www.gandi.net), whose address is 63-65 boulevard Masséna Paris (75013) France. Its phone number is +33 (0) 1 70.37.76.61.
 
 The [yvo.solutions](https://yvo.solutions) website is hosted by [Netlify, Inc.](https://www.netlify.com), located at 2325 3rd Street, Suite 215, San Francisco, California 94107. They may be contacted at support@netlify.com.
 

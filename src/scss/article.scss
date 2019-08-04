@@ -6,32 +6,28 @@
 body {
     font: 100% $font-stack;
     margin: 0;
-    background-color: aqua;
+}
 
-    div#central {
-        background-color: pink;
-        display: grid;
-        grid-gap: 1em;
-        grid-template-areas:
-            "main"
-            "left"
-            "right";
-        
-        .left {
-            grid-area: left;
-            background-color: red;
-        }
+#central {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+        "main"
+        "left"
+        "right";
+    
+    .left {
+        grid-area: left;
+    }
 
-        .right {
-            grid-area: right;
-            background-color: green;
-        }
+    .right {
+        grid-area: right;
     }
 }
 
 main {
     grid-area: main;
-    background-color: coral;
+    padding: $standard-padding;
 }
 
 @media only screen and (min-width: $screen-medium) {
@@ -48,7 +44,7 @@ main {
         margin-left: 2%;
         margin-right: 2%;
         grid-gap: 20px;
-        grid-template-columns: 120px auto 120px;
+        grid-template-columns: 200px auto 200px;
         grid-template-areas:
             "left main right";
     }
