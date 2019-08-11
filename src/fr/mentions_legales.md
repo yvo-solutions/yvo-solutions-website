@@ -1,37 +1,36 @@
 ---
-title: Yvo.Solutions - Legal Notice
-summary: Yvo.Solutions - Legal Notice.
-url: /legal_notice.html
-layout: layouts/article.njk
+title: Yvo.Solutions - Mentions Légales
+summary: Yvo.Solutions - Mentions Légales.
+url: /fr/legal_notice.html
+layout: layouts/fr/article.njk
 ---
 
-# Legal Notice
+# Mentions légales
 
 ## Contact
 
-The [yvo.solutions](https://yvo.solutions) domain name and website are owned and managed by *Entreprise Individuelle à Responsabilité Limité (EIRL) YVONNET - Yvo.Solutions*.
+Le nom de domaine et le site web [yvo.solutions](https://yvo.solutions) sont la propriété et sont gérés par *Entreprise Individuelle à Responsabilité Limité (EIRL) YVONNET - Yvo.Solutions*.
 
-Address:<br/>
+Adresse:<br/>
 26 rue de Lorraine<br/>
 Appartement 3<br/>
-49400 SAUMUR<br/>
-France
+49400 SAUMUR
 
-Phone number: +33 (0) 6 77 06 71 37
+Numéro de téléphone : 06 77 06 71 37
 
-Email: contact@yvo.solutions
+Courriel : contact@yvo.solutions
 
 Webmaster: Mr Loïc Yvonnet
 
-The [yvo.solutions](https://yvo.solutions) domain name is purchased to [GANDI SAS](https://www.gandi.net), whose address is 63-65 boulevard Masséna Paris (75013) France. Its phone number is +33 (0) 1 70 37 76 61.
+Le nom de domain [yvo.solutions](https://yvo.solutions) est acheté à [GANDI SAS](https://www.gandi.net), dont l'adresse est 63-65 boulevard Masséna 75013 Paris. Son numéro de téléphone est le 01 70 37 76 61.
 
-The [yvo.solutions](https://yvo.solutions) website is hosted by [Netlify, Inc.](https://www.netlify.com), located at 2325 3rd Street, Suite 215, San Francisco, California 94107. They may be contacted at support@netlify.com.
+Le site web [yvo.solutions](https://yvo.solutions) est hébergé par [Netlify, Inc.](https://www.netlify.com), localisé au 2325 3rd Street, Suite 215, 94107 San Francisco, en California. Ils peuvent être contactés via support@netlify.com. Netlify utilise la technologie Content Delivery Network (CDN) afin de servir le site web sur un serveur au plus proche de la localisation géographique de l'Internaute.
 
 ## Copyright
 
 ### Trademarks
 
-Yvo.Solutions &#174; and its logo are registered trademarks of Entreprise Individuelle à Responsabilité Limité (EIRL) YVONNET - Yvo.Solutions.
+Yvo.Solutions &#174; et son logo sont des marques déposées à l'INPI et sont la propriété exclusive de l'Entreprise Individuelle à Responsabilité Limité (EIRL) YVONNET - Yvo.Solutions.
 
 All product names, trademarks and registered trademarks are property of their respective owners. All company, product and service names used in this website are for identification purposes only. Use of these names,trademarks and brands does not imply endorsement.
 
