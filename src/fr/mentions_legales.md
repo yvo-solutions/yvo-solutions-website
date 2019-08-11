@@ -20,7 +20,7 @@ Numéro de téléphone : 06 77 06 71 37
 
 Courriel : contact@yvo.solutions
 
-Webmaster: Mr Loïc Yvonnet
+Webmaster: Mr YVONNET Loïc
 
 Le nom de domain [yvo.solutions](https://yvo.solutions) est acheté à [GANDI SAS](https://www.gandi.net), dont l'adresse est 63-65 boulevard Masséna 75013 Paris. Son numéro de téléphone est le 01 70 37 76 61.
 
@@ -49,36 +49,36 @@ Yvo.Solutions &#174; - Tous droits réservés.
 
 ### Code source
 
-Unless otherwise mentioned, the source code available on the [yvo.solutions](https://yvo.solutions) website in various articles is released under the [Boost Software license](https://www.boost.org/users/license.html).
+Sauf mention contraire, le code source disponible sur le site [yvo.solutions](https://yvo.solutions) dans les différents articles techniques sont disponibles sous la licence [Boost Software license](https://www.boost.org/users/license.html).
 
-The source code of the website is released under the GPL license. The source code is available on [GitHub](https://github.com/loic-yvonnet/dev-www-yvo-solutions).
+Le code source du site web est disponible sous licence GPL, et peut être trouvé sur [GitHub](https://github.com/loic-yvonnet/dev-www-yvo-solutions).
 
 ### Articles et images
 
-Unless otherwise mentioned, articles and images that are not located in the Marketing pages are released under the Creative Common CC BY-NC-SA license.
+Sauf mention contraire, les articles et images qui ne sont pas localisés dans les Pages web marketing (cf. section dédiée) sont disponibles sous la licence Creative Common CC BY-NC-SA.
 
 ## Avertissements
 
 ### A propos des articles
 
-THE WEBSITE AND ALL CONTENT, SOFTWARE AND SERVICES OFFERED THROUGH THE WEBSITE ARE MADE AVAILABLE TO YOU ON AN “AS IS” AND “AS AVAILABLE” BASIS, AND YVO.SOLUTIONS EXPRESSLY DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS OR IMPLIED, INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. YVO.SOLUTIONS DOES NOT WARRANT THAT THE WEBSITE OR SERVICES WILL BE UNINTERRUPTED OR ERROR FREE; NOR DOES YVO.SOLUTIONS MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM USE OF THE WEBSITE OR ITS CONTENT OR THE SERVICES. YVO.SOLUTIONS HAS NO OBLIGATION TO MONITOR, CONTROL, OR VET USER CONTENT OR DATA, AND YVO.SOLUTIONS MAKES NO CLAIMS OR WARRANTIES ABOUT THE QUALITY, ACCURACY, OR RELIABILITY OF THE WEBSITE CONTENT, SOFTWARE AND SOLUTIONS OFFERED THROUGH THE WEBSITE, ITS SAFETY OR SECURITY, OR THE WEBSITE’S INTEROPERABILITY, UNAVAILABILITY OR SECURITY VULNERABILITIES. SOME JURISDICTIONS MAY PROHIBIT A DISCLAIMER OF WARRANTIES AND YOU MAY HAVE OTHER RIGHTS THAT VARY FROM JURISDICTION TO JURISDICTION.
+LE SITE WEB ET TOUT CONTENU, LOGICIEL ET SERVICES OFFERTS SUR LE SITE WEB SONT RENDUS DISPONIBLES SUR LES BASES "TELS QU'ILS SONT" ET "SELON LA DISPONIBILITE", ET YVO.SOLUTIONS REJETTE EXPRESSEMENT TOUTES GARANTIES, QUELLES SOIENT EXPRIMEES EXPLICITEMENT OU QU'ELLES SOIENT IMPLICITES, CE QUI INCLUE LES GARANTIES IMPLICITES DE VALEUR COMMERCIALE, CONFORMITE POUR UN BUT PARTICULIER, ET NON-CONTREFACON. YVO.SOLUTIONS NE GARANTIE PAS QUE LE SITE WEB OU LES SERVICES SERONT ININTERROMPUS OU SANS ERREUR; YVO.SOLUTIONS NE GARANTIE PAS NON PLUS QUE LES RESULTATS QUI POURRAIENT ETRE OBTENUS DE L'UTILISATION DU SITE WEB OU DE SES CONTENUS OU DE SES SERVICES. YVO.SOLUTIONS N'A AUCUNE OBLIGATION DE SURVEILLER, CONTROLLER, OU EXAMINER LES CONTENUS OU DONNEES DES UTILISATEURS, ET YVO.SOLUTIONS N'OFFRE AUCUNE GARANTIE CONCERNANT LA QUALITE, PERTINENCE, FIABILITE OU EXACTITUDE CONCERNANT LE CONTENU DU SITE WEB, LES LOGICIELS ET SOLUTIONS OFFERTES SUR LE SITE WEB, SA SECURITE OU SON INTEROPERABILITE, DISPONIBILITE OU VULNERABILITES DE SECURITE. CERTAINES JURIDICTIONS PEUVENT INTERDIRE LES AVERTISSEMENTS ET VOUS POURRIEZ AVOIR D'AUTRES DROITS QUI VARIENT D'UNE JURIDICTION A L'AUTRE.
 
 ### A propos du code source
 
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+LE LOGICIEL EST FOURNI "TEL QU'IL EST", SANS GARANTIE D'AUCUNE SORTE, EXPRIMEE EXPLICITEMENT OU IMPLICITE, CE QUI INCLUE MAIS N'EST PAS LIMITE AUX GARANTIES DE VALEUR COMMERCIALE, CONFORMITE POUR UN BUT PARTICULIER, ET NON-CONTREFACON. EN AUCUN CAS LES AUTEURS OU AYANT DROITS PEUVENT ETRE TENUS RESPONSABLES D'AUCUNE RECLAMATION, OU DOMMAGES ET INTERETS, QUE SOIT DANS L'EXERCICE D'UN CONTRAT, DELIT CIVIL OU AUTRE, QUI DECOULERAIT D'UNE UTILISATION EN RAPPORT DIRECT OU INDIRECT DU LOGICIEL.
 
 ## GRPD
 
-Yvo.Solutions cares about privacy, and does not use cookies. Yvo.Solutions does not store any user data or traffic information.
+Yvo.Solutions est en faveur du respect de la vie privée, et n'utilise pas de cookies. Yvo.Solutions ne stocke aucune donnée utilisateur ou de traffic.
 
-Since no data is collected, no data is processed or transfered.
+Dans la mesure où aucune donnée n'est collectée, aucune donnée n'est traitée ou transférée.
 
-You may contact the [CNIL](https://www.cnil.fr).
+Vous êtes en droit de contacter la [CNIL](https://www.cnil.fr).
 
-GDPR responsible (Information Commissioner’s Office): Mr Loïc Yvonnet
+Responsable GRPD (Commissaire à l'Information) : Mr YVONNET Loïc
 
 ## Technologies
 
-The [yvo.solutions](https://yvo.solutions) website's architecture follows the JAMstack approach. It uses Markdown, Nunjuck, JavaScript, SCSS, HTML, Eleventy, Gulp, Npm, and many other indirect dependencies.
+L'architecture logicielle du site web [yvo.solutions](https://yvo.solutions) suit l'approche JAMstack. Il utilise uses Markdown, Nunjuck, JavaScript, SCSS, HTML, Eleventy, Gulp, Npm, et de nombreuses autres dépendences logicielles.
 
-The source code of the [yvo.solutions](https://yvo.solutions) website is Open Source and may be found on [GitHub](https://github.com/loic-yvonnet/dev-www-yvo-solutions).
+Le code source du site web [yvo.solutions](https://yvo.solutions) est Open Source est peut être trouvé sur [GitHub](https://github.com/loic-yvonnet/dev-www-yvo-solutions).
