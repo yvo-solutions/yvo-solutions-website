@@ -52,7 +52,7 @@ With more than 10 years of experience in CAA and field experience of successful 
 
 Yvo.Solutions can integrate the different components of your robotics systems into an actual robot, like the Aeolus Bot &#174;, from Aeolus Robotics &#174;.
 
-With extensive knowledge of C++, combined with experience in ROS and OpenCV, Yvo.Solutions is a logical choice to strengthen your software team. 
+With extensive knowledge of C++, combined with experience in ROS and OpenCV, Yvo.Solutions is a logical choice to strengthen your software team.
 
 <!-- Read more [here] -->
 
