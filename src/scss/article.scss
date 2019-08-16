@@ -28,6 +28,7 @@ body {
 main {
     grid-area: main;
     padding: $standard-padding;
+    min-height: calc(100vh - $footer-height);
 }
 
 @media only screen and (min-width: $screen-medium) {
