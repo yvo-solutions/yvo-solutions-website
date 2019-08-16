@@ -6,11 +6,11 @@
 body {
     font: 100% $font-stack;
     margin: 0;
+    background-color: $color-dark;
 }
 
 #central {
     display: grid;
-    grid-gap: 1em;
     grid-template-areas:
         "main"
         "left"
@@ -18,17 +18,20 @@ body {
     
     .left {
         grid-area: left;
+        background-color: $color-light;
     }
 
     .right {
         grid-area: right;
+        background-color: $color-light;
     }
 }
 
 main {
     grid-area: main;
     padding: $standard-padding;
-    min-height: calc(100vh - $footer-height);
+    min-height: 50vh;
+    background-color: white;
 }
 
 @media only screen and (min-width: $screen-medium) {
@@ -42,11 +45,21 @@ main {
 
 @media only screen and (min-width: $screen-large) {
     body div#central {
-        margin-left: 2%;
-        margin-right: 2%;
-        grid-gap: 20px;
+        padding-top: $standard-padding;
+        margin-left: 0;
+        margin-right: 0;
         grid-template-columns: 200px auto 200px;
         grid-template-areas:
             "left main right";
+    }
+
+    header .static_background {
+        display: inherit;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        height: $header-height;
+        width: 100%;
+        background-color: $color-dark;
     }
 }

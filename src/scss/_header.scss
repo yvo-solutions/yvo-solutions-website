@@ -1,10 +1,15 @@
 header {
     background-color: $color-dark;
+    font: 16px $font-stack;
     display: grid;
     grid-template-columns: auto 5em;
     grid-template-areas: 
         "left   right"
         "middle middle";
+
+    .static_background {
+        display: none;
+    }
 
     .left {
         grid-area: left;
@@ -16,10 +21,9 @@ header {
             padding-bottom: $header-padding-height;
 
             a {
-                font: 120% $font-stack;
                 padding-top: 0.5em;
                 padding-bottom: 0.5em;
-                padding-left: 2em;
+                padding-left: 2.2em;
                 text-decoration: none;
                 background-image: url("/img/yvo_logo/header_logo.png");
                 background-position: 0;
