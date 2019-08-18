@@ -12,6 +12,11 @@ nav.main_menu {
             "fourth"
             "fifth";
 
+        a {
+            color: $color-light;
+            text-decoration: none;
+        }
+
         li {
             background-color: $color-light;
 
@@ -19,12 +24,7 @@ nav.main_menu {
                 padding-left: 1em;
                 padding-top: 0.5em;
                 padding-bottom: 0.5em;
-                background-color: $color-dark;
-
-                a {
-                    color: $color-light;
-                    text-decoration: none;
-                }
+                background-color: $color-dark;       
             }
 
             ul {
@@ -36,11 +36,8 @@ nav.main_menu {
                         border-color: $color-dark;
                         border-style: solid;
                         border-width: 1px;
-
-                        a {
-                            color: $color-dark;
-                            text-decoration: none;
-                        }
+                        color: $color-dark;
+                        text-decoration: none;
                     }
                 }
             }
@@ -124,11 +121,8 @@ nav.main_menu {
             li:hover {
                 .menu_title {
                     background-color: $color-highlight;
-
-                    a {
-                        color: $color-dark;
-                        text-decoration: underline;
-                    }
+                    color: $color-dark;
+                    text-decoration: underline;
                 }
             }
         }
