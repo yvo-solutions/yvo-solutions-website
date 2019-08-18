@@ -5,6 +5,8 @@ url: /technologies/languages.html
 layout: layouts/article.njk
 ---
 
+![alt text](/img/marketing/languages.jpg "Programming Languages")
+
 # Programming Languages
 
 * **C++**: expert level (15+ years of experience). *

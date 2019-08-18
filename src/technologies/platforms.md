@@ -5,6 +5,8 @@ url: /technologies/platforms.html
 layout: layouts/article.njk
 ---
 
+![alt text](/img/marketing/platforms.jpg "Platforms")
+
 # Platforms
 
 * Operating Systems:

@@ -5,6 +5,8 @@ url: /technologies.html
 layout: layouts/article.njk
 ---
 
+![alt text](/img/marketing/technology.jpg "Technologies")
+
 # Technologies
 
 * Programming languages
