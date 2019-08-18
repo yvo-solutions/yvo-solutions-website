@@ -5,6 +5,8 @@ url: /news.html
 layout: layouts/article.njk
 ---
 
+![alt text](/img/marketing/yvo_news.png "News from Yvo.Solutions")
+
 # News
 
 * August 2019 - Start of the shutdown period in F1.
