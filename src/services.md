@@ -5,6 +5,8 @@ url: /services.html
 layout: layouts/article.njk
 ---
 
+![alt text](/img/marketing/services.jpg "Services")
+
 # Services
 
 Solve your problems.

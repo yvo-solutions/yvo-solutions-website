@@ -5,6 +5,8 @@ url: /services/misc.html
 layout: layouts/article.njk
 ---
 
+![alt text](/img/marketing/misc.jpg "Other Services")
+
 # Other Services
 
 * **Web development**: JAMstack, Vanilla, Wordpress, WooCommerce.
