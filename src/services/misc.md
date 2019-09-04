@@ -3,9 +3,11 @@ title: Yvo.Solutions - Other Services
 summary: Yvo.Solutions - Other Services provided by Yvo.Solutions.
 url: /services/misc.html
 layout: layouts/article.njk
+illustration: {
+    src: /img/marketing/misc.jpg,
+    alt: Other Services
+}
 ---
-
-![alt text](/img/marketing/misc.jpg "Other Services")
 
 # Other Services
 

@@ -3,9 +3,11 @@ title: Yvo.Solutions - Platforms
 summary: Yvo.Solutions - Platforms supported by Yvo.Solutions.
 url: /technologies/platforms.html
 layout: layouts/article.njk
+illustration: {
+    src: /img/marketing/platforms.jpg,
+    alt: Platforms
+}
 ---
-
-![alt text](/img/marketing/platforms.jpg "Platforms")
 
 # Platforms
 

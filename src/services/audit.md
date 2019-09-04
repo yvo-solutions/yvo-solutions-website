@@ -3,9 +3,11 @@ title: Yvo.Solutions - Audit
 summary: Yvo.Solutions - Audit your code base and architecture.
 url: /services/audit.html
 layout: layouts/article.njk
+illustration: {
+    src: /img/marketing/audit.jpg,
+    alt: Audit
+}
 ---
-
-![alt text](/img/marketing/audit.jpg "Audit")
 
 # Audit
 

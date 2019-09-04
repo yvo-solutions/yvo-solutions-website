@@ -9,14 +9,6 @@ body {
     background-color: $color-dark;
 }
 
-img, iframe {
-    width: 100%;
-    max-height: 30vh;
-    //object-fit: contain;
-    object-fit: cover;
-    object-position: center; 
-}
-
 #central {
     display: grid;
     grid-template-areas:
@@ -37,9 +29,26 @@ img, iframe {
 
 main {
     grid-area: main;
-    padding: $standard-padding;
     min-height: 50vh;
     background-color: white;
+
+    .illustration, iframe {
+        width: 100%;
+        max-height: 30vh;
+        object-fit: cover;
+        object-position: center; 
+    }
+
+    .padding_all_sides {
+        padding: $standard-padding;
+    }
+
+    .no_padding_top {
+        padding-left: $standard-padding;
+        padding-right: $standard-padding;
+        padding-bottom: $standard-padding;
+        padding-top: 0;
+    }
 }
 
 @media only screen and (min-width: $screen-medium) {

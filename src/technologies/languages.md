@@ -3,9 +3,11 @@ title: Yvo.Solutions - Languages
 summary: Yvo.Solutions - Programming Languages supported by Yvo.Solutions.
 url: /technologies/languages.html
 layout: layouts/article.njk
+illustration: {
+    src: /img/marketing/languages.jpg,
+    alt: Programming Languages
+}
 ---
-
-![alt text](/img/marketing/languages.jpg "Programming Languages")
 
 # Programming Languages
 

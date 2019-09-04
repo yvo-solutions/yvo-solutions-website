@@ -3,9 +3,11 @@ title: Yvo.Solutions - News
 summary: Yvo.Solutions - News from Yvo.Solutions.
 url: /news.html
 layout: layouts/article.njk
+illustration: {
+    src: /img/marketing/yvo_news.png,
+    alt: News from Yvo.Solutions
+}
 ---
-
-![alt text](/img/marketing/yvo_news.png "News from Yvo.Solutions")
 
 # News
 

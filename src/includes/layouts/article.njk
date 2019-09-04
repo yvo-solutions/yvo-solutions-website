@@ -11,7 +11,12 @@
 {% block main %}
     <div id="central">
       <main>
-        {{ content | safe }}
+        {% if illustration %}
+          <img class="illustration" src="{{ illustration.src }}" alt="illustration.alt"/>
+        {% endif %}
+        <div id="main_content" class="{{ 'no_padding_top' if illustration else 'padding_all_sides' }}">
+          {{ content | safe }}
+        </div>
       </main>
       <section class="left">
         <!-- <p>Some content on the left.<p/> -->
