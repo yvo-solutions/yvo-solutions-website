@@ -5,6 +5,8 @@ url: /services/audit.html
 layout: layouts/article.njk
 ---
 
+![alt text](/img/marketing/audit.jpg "Audit")
+
 # Audit
 
 Take control of your legacy code base.
