@@ -27,9 +27,9 @@
   "license": "MIT for the source code. For images and articles, all rights reserved - Yvo.Solutions 2019 (C).",
   "devDependencies": {
     "@11ty/eleventy": "^0.7.1",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/register": "^7.5.5",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/register": "^7.6.0",
     "del": "^4.1.1",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
