@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="{{ summary }}">
-    <meta name="twitter:card" content="{{ summary }}"/>
-    <meta name="twitter:creator" content="@yvo.solutions"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@yvo.solutions"/>
+    <meta name="twitter:title" content="{{ title }}"/>
+    <meta name="twitter:description" content="{{ summary }}"/>
+    <meta name="twitter:image" content="img/yvo_logo/landing_page_logo_200.png"/> <!-- Should depend on the page -->
+    <meta name="twitter:image:alt" content="Yvo.Solutions logo"/> <!-- Should depend on the page -->
+    <meta name="twitter:creator" content="@lyvonnet"/>
     <meta property="og:url" content="{{ url }}"/>
     <meta property="og:title" content="{{ title }}"/>
     <meta property="og:description" content="{{ summary }}"/>
-    <meta property="og:image" content="favicon.ico"/>
+    <meta property="og:image" content="img/yvo_logo/header_logo.png"/>
     <title>{{ title }}</title>
     {% block css %}{% endblock %}
   </head>
