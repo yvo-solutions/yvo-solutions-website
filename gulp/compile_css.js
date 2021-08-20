@@ -1,5 +1,5 @@
 import gulp from "gulp";
-import sass from "gulp-sass";
+const sass = require('gulp-sass')(require('sass')); 
 import paths from "./paths.js";
 
 export default function compileCss() {
