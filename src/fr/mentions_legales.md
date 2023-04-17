@@ -11,10 +11,10 @@ layout: layouts/fr/article.njk
 
 Le nom de domaine et le site web [yvo.solutions](https://yvo.solutions) sont la propriété et sont gérés par *Entreprise Individuelle à Responsabilité Limité (EIRL) YVONNET - Yvo.Solutions*.
 
-Adresse:<br/>
-26 rue de Lorraine<br/>
-Appartement 3<br/>
-49400 SAUMUR
+Adresse :<br/>
+20 avenue Maréchal JOFFRE<br/>
+60500 CHANTILLY<br/>
+France
 
 Numéro de téléphone : 06 77 06 71 37
 
