@@ -1,0 +1,294 @@
+@use "sass:color";
+@use "sass:map";
+
+@import "bootstrap/scss/functions"; 
+@import "bootstrap/scss/variables";
+
+// Palette
+$primary: #6400dc;
+$secondary: #ee02ab;
+$success: #66f248;
+$info: #aaa;
+$warning: #eebb02;
+$danger: #ee0235;
+
+$theme-colors: map-merge($theme-colors, (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger
+));
+
+// Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl: 2400px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+  xxxl: 2300px
+);
+
+@import "bootstrap/scss/bootstrap";
+
+// Fonts
+@font-face {
+    font-family: "Orbitron Regular";
+    src: url("/font/orbitron.eot");
+    src: url("/font/orbitron.woff2")format("woff2"),
+         url("/font/orbitron.woff")format("woff"),
+         url("/font/orbitron.ttf")format("truetype"),
+         url("/font/orbitron.svg#Orbitron Regular")format("svg");
+}
+
+h1, h2, h3 {
+    font-family: "Orbitron Regular", $font-family-sans-serif;
+}
+
+h1.default_font_family, h2.default_font_family, h3.default_font_family {
+    font-family: $font-family-sans-serif;
+}
+
+// Hero image - landing page
+$img-landing-page-path: "/img/landing_page/";
+$img-hero-techie: $img-landing-page-path + "unsplash-desola-lanre-ologun-";
+$img-hero-sizes: (
+    "xs": "640x427",
+    "sm": "1200x800",
+    "lg": "1920x1280",
+    "xxl": "2400x1600",
+    "xxxl": "6720x4480",
+);
+$img-hero-url: $img-hero-techie + map.get($img-hero-sizes, "xs") + ".jpg";
+
+// Hero image - legal notice
+$img-legal-path: "/img/legal/";
+$img-hero-law: $img-legal-path + "unsplash-tingey-injury-law-";
+$img-hero-legal-sizes: (
+    "xs": "369x425",
+    "sm": "957x800",
+    "lg": "1920x1280",
+    "xxl": "2400x1600",
+    "xxxl": "5664x3776",
+);
+$img-hero-legal-url: $img-hero-law + map.get($img-hero-legal-sizes, "xs") + ".jpg";
+
+
+:root {
+    --img-hero: url("#{$img-hero-url}");
+    --img-hero-legal: url("#{$img-hero-legal-url}");
+}
+
+@include media-breakpoint-up(sm) {
+    :root {
+        $img-hero-url: $img-hero-techie + map.get($img-hero-sizes, "sm") + ".jpg";
+        $img-hero-legal-url: $img-hero-law + map.get($img-hero-legal-sizes, "sm") + ".jpg";
+
+        --img-hero: url("#{$img-hero-url}");
+        --img-hero-legal: url("#{$img-hero-legal-url}");
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    :root {
+        $img-hero-url: $img-hero-techie + map.get($img-hero-sizes, "lg") + ".jpg";
+        $img-hero-legal-url: $img-hero-law + map.get($img-hero-legal-sizes, "lg") + ".jpg";
+
+        --img-hero: url("#{$img-hero-url}");
+        --img-hero-legal: url("#{$img-hero-legal-url}");
+    }
+}
+
+@include media-breakpoint-up(xxl) {
+    :root {
+        $img-hero-url: $img-hero-techie + map.get($img-hero-sizes, "xxl") + ".jpg";
+        $img-hero-legal-url: $img-hero-law + map.get($img-hero-legal-sizes, "xxl") + ".jpg";
+
+        --img-hero: url("#{$img-hero-url}");
+        --img-hero-legal: url("#{$img-hero-legal-url}");
+    }
+}
+
+@include media-breakpoint-up(xxxl) {
+    :root {
+        $img-hero-url: $img-hero-techie + map.get($img-hero-sizes, "xxxl") + ".jpg";
+        $img-hero-legal-url: $img-hero-law + map.get($img-hero-legal-sizes, "xxl") + ".jpg";
+
+        --img-hero: url("#{$img-hero-url}");
+        --img-hero-legal: url("#{$img-hero-legal-url}");
+    }
+}
+
+// Hero
+.logo-yvo-title-bar {
+    height: 50px;
+}
+
+.custom-hero, .custom-hero-legal {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom-hero {
+    background-image: linear-gradient(0deg, #000000ff, color.adjust($primary, $lightness: +40%, $alpha: -0.4)),
+                      var(--img-hero);
+}
+
+.custom-hero-legal {
+    background-image: linear-gradient(0deg, #000000ff, color.adjust($primary, $lightness: +40%, $alpha: -0.4)),
+                      var(--img-hero-legal);
+}
+
+@include media-breakpoint-up(lg) {
+    .custom-hero, .custom-hero-legal {
+        background-attachment: fixed;
+    }
+
+    .custom-hero {
+        height: 80vh;
+    }
+
+    .custom-hero-legal {
+        height: 50vh;
+    }
+}
+
+.custom-hero-title {
+    text-shadow: 0 0 5px black,
+                 0 0 2em black;
+}
+
+.custom-hero-logo-div {
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.custom-hero-title-div {
+    background-color: rgba(0, 0, 0, 0.25)
+}
+
+// Featured icons below the hero on the landing page
+#featured {
+    svg {
+        fill: $primary;
+    }
+}
+
+// Customers logos inner SVG styles
+#Gennes {
+    .st0 {
+        fill: #286A94;
+    }
+    
+    .st1 {
+        fill: #8ECEF4;
+    }
+    
+    .st2 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill: #94C41F;
+    }
+    
+    .st3 {
+        fill: #2D92D3;
+    }
+    
+    .st4 {
+        fill: #94C41F;
+    }
+} 
+
+#Processia {
+    .st0 {
+        fill: #17243E;
+    }
+    
+    .st1 {
+        fill: #1D3D8F;
+    }
+    
+    .st2 {
+        fill: #37AE6E;
+    }
+    
+    .st3 {
+        fill: #808184;
+    }
+}
+
+// Titles (headers)
+h2, h3, h4 {
+    color: $primary;
+}
+
+// References
+.references-logos {
+    background-color: $gray-200;
+    border-radius: 1em;
+    padding: 1em;
+    scrollbar-color: $primary color.adjust($primary, $lightness: +40%);
+    width: 100%;
+}
+
+#references img, #references svg {
+    margin-right: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#references img {
+    display: block;
+    width: auto;
+    height: 3em;
+}
+
+#references svg {
+    display: block;
+    height: auto;
+    min-width: 8em;
+}
+
+#references svg#Renault, #references svg#CEA {
+    min-width: 4em;
+}
+
+#references svg#ReactiveExecutive {
+    background-color: black;
+}
+
+// Locations
+#locations {
+    iframe {
+        width: 100%;
+        height: 30vh;
+        border: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+// Playing with the scrollbar
+html {
+    scrollbar-color: $primary color.adjust($primary, $lightness: +40%);
+}
+
+// Footer
+footer .bg-darker-primary {
+    background-color: color.adjust($primary, $lightness: -10%);
+}
+
+footer ul.list-unstyled, footer address {
+    min-width: 200px; // aligns the address and the list of navs on small screens
+}

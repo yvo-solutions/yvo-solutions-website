@@ -1,34 +1,56 @@
 # Yvo.Solutions Website
 
-The [yvo.solutions](https://yvo.solutions) website is under development [here](https://github.com/loic-yvonnet/dev-www-yvo-solutions). The source code is available under the GNU General Public License version 3 (GPL 3).
+The [yvo.solutions](https://www.yvo.solutions) website is implemented here.
 
 ## Build instructions
 
-You can install, build and deploy the website by executing the following instructions (assuming a GNU/Linux, Unix, or Mac OS platform):
+### Prerequisites
+
+You need to install:
+
+* [Node.js](https://nodejs.org/),
+* [Netlify CLI](https://cli.netlify.com/),
+* [Git LFS](https://git-lfs.com).
+
+### Architecture
+
+This website relies on Vite, Bootstrap and Netlify.
+
+### Clone and Run
+
+You can run locally the website by executing the following instructions:
 
 ```sh
-git clone https://github.com/loic-yvonnet/dev-www-yvo-solutions
+git lfs install
 
-cd dev-www-yvo-solutions
+git clone https://github.com/yvo-solutions/yvo-solutions-website
 
-bin/install.sh
+cd yvo-solutions-website
 
-bin/compile.sh
-
-bin/deploy.sh
+npm run start
 ```
 
-## Disclaimers
+### Build
 
-Beware that:
-* You need a Netlify account.
-* You need to deploy your own version of the website to your own domain name.
-* Only the source code of the website is released under the GPL license:
-    * JavaScript code (.js files),
-    * Style sheet code (.css and .scss files),
-    * Nunjuck code (.njk files),
-    * Shell code (.sh files).
+```sh
+npm run build
+npm run preview
+```
 
-The content of the website - including the landing page, articles, logos and images - has [different licenses](https://yvo.solutions/legal_notice).
+## Deployment
 
-Basically, you are more than welcome to copy the code and the structure of the website, as long as you create you own content and images.
+### Staging
+
+```sh
+npm run deploy
+```
+
+### Production
+
+Please note that deployment to production should be handled by merging a pull request to the `main` branch.
+
+It is also possible to force deployment in production on the command line, if required:
+
+```sh
+npm run force_deploy_to_production
+```
