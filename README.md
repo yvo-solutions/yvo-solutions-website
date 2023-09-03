@@ -27,6 +27,8 @@ git clone https://github.com/yvo-solutions/yvo-solutions-website
 
 cd yvo-solutions-website
 
+npm i
+
 npm run start
 ```
 
