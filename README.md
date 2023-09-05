@@ -1,5 +1,7 @@
 # Yvo.Solutions Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3d05d276-444a-4992-9f8c-afbabef4c6fc/deploy-status)](https://app.netlify.com/sites/yvo-solutions/deploys)
+
 The [yvo.solutions](https://www.yvo.solutions) website is implemented here.
 
 ## Build instructions
